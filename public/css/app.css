@@ -1,10 +1,35 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Raleway Dots", cursive;
+  color: orange;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  row-gap: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px auto;
+  overflow-y: auto;
+}
+
 .card {
-  margin: 10px 0 20px 5px;
+  width: 90%;
+  border: 1px solid rgb(127, 61, 0);
+  background: none;
+  -webkit-backdrop-filter: brightness(0.2);
+          backdrop-filter: brightness(0.2);
+  padding: 5px;
+}
+
+.card > * {
+  margin-bottom: 7px;
 }
 
